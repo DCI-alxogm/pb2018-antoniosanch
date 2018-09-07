@@ -1,32 +1,25 @@
 
 #include <stdio.h>
-#include <math.h>
 int main()
+char c[1000];
+int i,j,n;
+
+int main ()
 {
-int i,j,a,b,primo,digit;
-float raiz;
-printf("indique un intervalo (dos numeros para calcular los numeros primos que hay en el\n ");
-scanf("%i %i",&a,&b);
-while((a-b)>100){
-	printf("El intervalo es mayor que 100, indique otro\n");
-	scanf("%i %i",&a,&b);
-}	
-for(i=a;i<=b;i++){
-	primo=1;
-	raiz=sqrt(i);
-	for(j=2;j<=raiz;j++){
-		if(i%j==0){
-		primo=0;
-		}
-	}
-	if(primo==1){
-	printf("%i \n",a);
-	digit++;
-	if(digit%20==0){
-		printf("\n");
-	}
-	}
-	}
-	return 0;		
+printf("Teclee el numero de valores que desea obtener\n");
+scanf("%d", &n); 
+
+for(i=2;i<=n;i++)//inicializa, si tiene un 1 es primo
+	c[i]=1;
+
+for(i=2;i*i<n;i++) //desde i hasta que iÂ² sea menor que n
+	if(c[i]==1) //condicion si i tiene un 1 entonces se aplica for
+		for(j=i;j<=(n/i);j++)//i*j tiene que ser <=n, despejar j
+			c[i*j]=0;
+
+for(i=0;i<n;i++)
+	if(c[i]==1)
+		printf("%d\t", i);
+	
 }
 

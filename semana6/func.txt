@@ -1,0 +1,5 @@
+El resultado de las funciones evaluadas es:	exp=54.598148 	 seno=-0.756802 	 cos=-0.653644 	 raiz=2.000000 	 ln=1.386294 
+exp=54.598148 	 seno=-0.756802 	 cos=-0.653644 	 raiz=2.000000 	 ln=1.386294 
+exp=54.598148 	 seno=-0.756802 	 cos=-0.653644 	 raiz=2.000000 	 ln=1.386294 
+exp=54.598148 	 seno=-0.756802 	 cos=-0.653644 	 raiz=2.000000 	 ln=1.386294 
+exp=54.598148 	 seno=-0.756802 	 cos=-0.653644 	 raiz=2.000000 	 ln=1.386294 

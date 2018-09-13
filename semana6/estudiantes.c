@@ -1,3 +1,4 @@
+//creado por jesus antonio sanchez garcia
 #include <stdio.h>
 int main ()
 {//declaracion de variables y arreglos

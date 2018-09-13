@@ -1,0 +1,20 @@
+EL resumen es: 	El numero total de alumnos en el semestre: 1 
+1 
+El numero total de alumnos en el semestre: 2 
+0 
+El numero total de alumnos en el semestre: 3 
+1 
+El numero total de alumnos en el semestre: 4 
+1 
+El numero total de alumnos en el semestre: 5 
+2 
+El numero total de alumnos en el semestre: 6 
+2 
+El numero total de alumnos en el semestre: 7 
+1 
+El numero total de alumnos en el semestre: 8 
+1 
+El numero total de alumnos en el semestre: 9 
+1 
+Se capturaron 10 estudiantes, de los cuales 4 son mujeres y 6 son hombres 
+El promedio de calificaciones de todos los estudiantes es: 7.900000

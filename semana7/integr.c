@@ -22,13 +22,13 @@ int main (){
 	}
 	printf("indique el numero de iteraciones\n");
 	scanf("%d",&n);
-	h=(xf-xi)/n;
+	h=(xf-xi)/n;//formula para determinar el area del trapecio
 	fp=fopen("Resultado.txt","w");
 	for(i=1;i<=n;i++){
 		f=xi;
 	b=pow(f,p);
 	B=pow(f+(i*h),p);
-	A=A+((b+B)*h)/2;
+	A=A+((b+B)*h)/2;//ec de la integral
 	v=h*i;
 	fprintf(fp,"%d.-\t X=%f\t F(X)=%f ^ %i\t I(X)=%f\t  \n",i,v,B,p,A);//A//i//
 	b=B;

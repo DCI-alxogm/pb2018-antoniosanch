@@ -1,2 +1,5 @@
 Lo primero que realice en mi proyecto 1 fue crear el archivo.txt (mascor.txt) en el cual coloque los datos de los planetas que nos proporcionó la profesora.
 Ademas añadí en ese mismo archivo en el siguiente orden la masa del sol, el tiempo de evolución, el paso del tiempo y la masa del planeta,todo esto 9 veces por el numero de planetas.
+Ya en el código proseguí a la declaración de variables. (int N es el numero de planetas a analizar y double a i que es el contador para el bucle for, ademas de que servira para imprimir el valor del tiempo, G es la constante de la gravedad y las demas x,y,z,vx,vy,vz las variables donde se guardaran los resultados)El arreglo tipo char es para crear un archivo.txt para cada planeta.
+En las siguientes lineas transforme las velocidades a AU/dia a AU/year, ademas le di valor a las variables con el fscanf que leyo el documento de texto. 
+Prosiguiendo cree el archivo tipo lectura el cual nos presentará los resultados del programa. EL ciclo for se uso para que el tiempo fuera cambiando y asi los valores de la posicion. Solo se colocan las ecuaciones dadas por la maestra.
